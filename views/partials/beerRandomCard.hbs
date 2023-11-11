@@ -1,0 +1,17 @@
+<div class='beer-card'>
+  <img src='{{this.image_url}}' alt={{this.image_url}}/>
+  <div class='beer-card-content'>
+    <div class='beer-card-name'>{{this.name}}</div>
+    <div class='beer-card-tagline'>{{this.tagline}}</div>
+    <div class='beer-card-description'>{{this.description}}</div>
+    <div class='beer-card-foodpairing'>
+      <strong>Food Pairing:</strong>
+      <ul>
+        {{#each this.food_pairing}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class='beer-card-brewertips'><strong>Brewer Tips:</strong> {{this.brewers_tips}}</div>
+  </div>
+</div>
