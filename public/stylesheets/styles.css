@@ -25,6 +25,20 @@ nav {
     width: 100%;
 }
 
+footer {
+    background-color: #0a2c42;
+    position: fixed;
+    color: #f7f9f9;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -65,20 +79,6 @@ nav a {
 .home-buttons a {
     color: #f7f9f9;
     text-decoration: none;
-}
-
-footer {
-    background-color: #0a2c42;
-    position: fixed;
-    color: #f7f9f9;
-    font-size: 20px;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
 }
 
 .beers-container {
